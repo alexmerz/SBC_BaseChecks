@@ -23,4 +23,4 @@ echo "================================"
 echo "Sysbench"
 echo "================================"
 sysbench --test=cpu --cpu-max-prime=20000 run
-sysbench --test=cpu -num-threads=4 --cpu-max-prime=20000 run
+sysbench --test=cpu --num-threads=4 --cpu-max-prime=20000 run
